@@ -8,15 +8,15 @@ const corsHeaders = {
 // Prediction coefficients derived from logistic regression on Pima Indians Diabetes Dataset
 // These weights approximate the trained model behavior
 const COEFFICIENTS = {
-  pregnancies: 0.123,
-  glucose: 0.035,
-  bloodPressure: -0.013,
-  skinThickness: 0.001,
+  pregnancies: 0.106,
+  glucose: 0.037,
+  bloodPressure: -0.011,
+  skinThickness: 0.003,
   insulin: -0.001,
-  bmi: 0.089,
-  diabetesPedigree: 0.945,
-  age: 0.014,
-  intercept: -8.404
+  bmi: 0.095,
+  diabetesPedigree: 1.136,
+  age: 0.021,
+  intercept: -9.172
 };
 
 function sigmoid(x: number): number {
